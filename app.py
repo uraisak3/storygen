@@ -1,4 +1,4 @@
-Юра, [10.02.2026 7:47]
+
 import streamlit as st
 import random
 
@@ -78,7 +78,6 @@ if st.button("✨ Згенерувати казку", type="primary"):
         # Промпт для ілюстрацій (покращений)
         image_prompt = f"Якісна дитяча книжкова ілюстрація в теплому казковому стилі: {age}-річний{'а' if gender != 'Хлопчик' else ''} {desc} на ім'я {name} з {favorite} в {place}. Атмосферна сцена з {friend}, магічне світло, деталізований фон, стиль Studio Ghibli + children's book illustration, м'які кольори"
 
-Юра, [10.02.2026 7:47]
 st.markdown("Промпт для малюнків (скопіюй у Bing, Grok, Flux або Leonardo):")
         st.code(image_prompt, language=None)
 
